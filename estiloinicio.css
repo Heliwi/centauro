@@ -1,0 +1,170 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+/* encabezado */
+header {
+    background-color: #dd1818
+;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Contenedor del encabezado (para alinear el logo y la imagen) */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+/* Logo (A la izquierda) */
+.logo {
+    flex: 1;
+    text-align: left;
+}
+
+.logo-img {
+    height: 80px;  /* Ajusta el tamaño del logo */
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+/* Sección de bienvenida */
+.bienvenida {
+    background-color: #f4f4f9;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Imagen central */
+.header-image {
+    flex: 4;
+    text-align: center;
+}
+
+.central-img {
+    max-width: 50%;
+    height: auto;
+}
+.bienvenida h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.bienvenida p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.boton-catálogo {
+    background-color: #dd1818;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton-catálogo:hover {
+    background-color: #3CB371;
+}
+
+/* Sección de productos destacados */
+.productos-destacados {
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.productos-destacados h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.productos-lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.producto img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.producto h3 {
+    margin-top: 10px;
+}
+
+.producto .precio {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.boton-ver {
+    background-color: #dd1818;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.boton-ver:hover {
+    background-color: #3CB371;
+}
+
+/* Sección de información sobre la tienda */
+.informacion-tienda {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.informacion-tienda h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #dd1818;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
